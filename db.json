@@ -1,19 +1,62 @@
 {
-  "posts": [
+  "products": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "wood chair",
+      "price": "300000",
+      "category_id": 1,
+      "description": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue",
+      "width": "128mm",
+      "height": "508mm",
+      "depth": "85mm",
+      "weight": "52gm",
+      "images": ["https://jysk.vn/Data/Sites/1/Product/8413/361676086.jpg", "http://product.hstatic.net/200000044142/product/ghe-pin-stool-nau-01_64907109d59c47a3aac66f72c1fa0948_grande.jpg"]
+    },
+    {
+      "id": 2,
+      "name": "ion table",
+      "price": "350000",
+      "category_id": 2,
+      "description": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue",
+      "width": "128mm",
+      "height": "508mm",
+      "depth": "85mm",
+      "weight": "52gm",
+      "images": ["https://jysk.vn/Data/Sites/1/Product/8413/361676086.jpg", "http://product.hstatic.net/200000044142/product/ghe-pin-stool-nau-01_64907109d59c47a3aac66f72c1fa0948_grande.jpg"]
+    },
+    {
+      "id": 3,
+      "name": "wood table",
+      "price": "400000",
+      "category_id": 2,
+      "description": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue",
+      "width": "128mm",
+      "height": "508mm",
+      "depth": "85mm",
+      "weight": "52gm",
+      "images": ["https://jysk.vn/Data/Sites/1/Product/8413/361676086.jpg", "http://product.hstatic.net/200000044142/product/ghe-pin-stool-nau-01_64907109d59c47a3aac66f72c1fa0948_grande.jpg"]
+    },
+    {
+      "id": 4,
+      "name": "stone chair",
+      "price": "450000",
+      "category_id": 1,
+      "description": "First replenish living. Creepeth image image. Creeping can't, won't called. Two fruitful let days signs sea together all land fly subdue",
+      "width": "128mm",
+      "height": "508mm",
+      "depth": "85mm",
+      "weight": "52gm",
+      "images": ["https://jysk.vn/Data/Sites/1/Product/8413/361676086.jpg", "http://product.hstatic.net/200000044142/product/ghe-pin-stool-nau-01_64907109d59c47a3aac66f72c1fa0948_grande.jpg"]
     }
   ],
-  "comments": [
+  "categories": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "chair"
+    },
+    {
+      "id": 2,
+      "name": "table"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
